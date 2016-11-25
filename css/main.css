@@ -10,7 +10,7 @@ html {
   background-image: url("../images/leaf-bg.svg");
   background-size: 65px;
   background-repeat: repeat;
-  background-position: center;
+  background-position: top left;
 }
 
 .logo {
@@ -39,16 +39,18 @@ html {
 }
 
 .banner {
-  background-image: url("../images/banner.jpg");
-
+  background: linear-gradient(to top, rgba(16, 52, 41, .8), rgba(16, 52, 41, 0) 50%), url("../images/banner.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
 }
 
 .banner-content {
   background-image: url("../images/two-leaves.svg");
-  background-position: left;
+  background-position: .75em 180px;
   background-size: 100px;
   background-repeat: no-repeat;
-  padding: 15em 1em 1em;
+  padding-top: 300px;
 }
 
 @media only screen and (min-width: 60em) {
