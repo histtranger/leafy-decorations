@@ -30,15 +30,25 @@ html {
 }
 
 .nav a:hover {
-
+  background-color: #fff;
+  background-image: url("../images/leaf-icon.svg");
+  background-position: center center;
+  background-size: 65px;
+  background-repeat: no-repeat;
+  color: #145b1d;
 }
 
 .banner {
   background-image: url("../images/banner.jpg");
+
 }
 
 .banner-content {
-
+  background-image: url("../images/two-leaves.svg");
+  background-position: left;
+  background-size: 100px;
+  background-repeat: no-repeat;
+  padding: 15em 1em 1em;
 }
 
 @media only screen and (min-width: 60em) {
